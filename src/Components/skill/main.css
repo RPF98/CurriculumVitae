@@ -1,0 +1,25 @@
+.skill {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
+	width: 25vw;
+	height: 40vh;
+
+	background-color: #fff;
+
+	margin-top: 2vh;
+	margin-bottom: 2vh;
+	margin-left: 2vh;
+	margin-right: 2vh;
+}
+
+.skill * {
+	margin-top: 1vh;
+	margin-bottom: 1vh;
+}
+
+.skill img {
+	width: 10vw;
+	height: auto;
+}

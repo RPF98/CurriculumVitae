@@ -10,7 +10,8 @@
 
 .container-left {
 	grid-column: 1;
-	overflow: hidden
+	overflow: hidden;
+	background-color: #ECEFF1;
 }
 
 .container-left img {
@@ -26,7 +27,9 @@
 			"a a"
 			"b b"
 			"b b"
-			"c c"
+			"c c";
+
+	border-top: #ECEFF1 solid 2px;		
 }
 
 .container-right .center-right {
@@ -71,6 +74,10 @@
 	font-family: 'Alegreya Sans';
 }
 
+.normal {
+	font-family: 'Alegreya';
+}
+
 .detail {
 	width: 80%;
 	text-align: center;
@@ -86,6 +93,105 @@
 	font-weight: bold;
 	font-size: 1.2em;
 	text-decoration: underline;
+}
+
+.wrapper {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.align-column {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
+}
+
+.text-underlined {
+	text-decoration: underline;
+}
+
+.badge {
+	border: none;
+	border-radius: 4px;
+
+	background-color: #CFD8DC;
+	
+	width: auto;
+	height: 20px;
+	font-size: 0.8em;
+
+	padding-left: 6px;
+	padding-right: 6px;
+
+	color: #fff;
+}
+
+.bdg-blue {
+	background-color: #03A9F4;
+}
+
+.bdg-green {
+	background-color: #4CAF50;
+}
+
+.centered {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
+.card {
+	width: 50vw;
+	height: 60vh;
+
+	background-color: #fff;
+	border: none;
+	border-radius: 4px;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.card * {
+	margin-top: 2vh;
+	margin-bottom: 2vh;
+}
+
+.card img {
+	width: 10vw;
+	height: auto;
+	margin: 0;
+}
+
+.card ul {
+	max-height: 30vh;
+	text-align: start;
+}
+
+.appear-anim {
+	animation-name: appear;
+	animation-duration: 1s;
+	animation-timing-function: linear;
+}
+
+hr {
+	width: 60%;
+	border: #CFD8DC solid 1px;
+}
+
+@keyframes appear {
+	from {
+		transform: translateY(-20px);
+	}
+
+	to {
+		transform: translateY(20px);
+	}
 }
 
 @font-face {

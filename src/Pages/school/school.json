@@ -1,0 +1,19 @@
+{
+	"years": [
+		{
+			"year": "2016",
+			"degree": "Bac STI2D",
+			"description": "STI2D -> Science et Technologie du développement durable, durant ces années j'ai pu apprendre les bases de l'électronique au travers d'Arduino ainsi que sa programmation dans le langage C."
+		},
+		{
+			"year": "2017",
+			"degree": "Permi B",
+			"description": "Plus posséssion d'un véhicule personnel"
+		},
+		{
+			"year": "Actuellement-2022",
+			"degree": "Master of Science SUPINFO",
+			"description": "Durant ces 5 ans j'ai pu apprendre à programmer site, jeux ainsi que le fonctionnement d'une entreprise grâce aux cours de management, droits ..."
+		}
+	]
+}

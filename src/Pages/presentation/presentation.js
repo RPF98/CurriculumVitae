@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
-import './main.css';
 import MaterialIcon, {colorPalette} from 'material-icons-react';
+import '../../Common.css';
 
 /*
 *	importing profile picture
@@ -14,7 +14,7 @@ class Presentation extends Component {
 				<img src={profile_picture}/>
 			</div>
 			<div className='container-right'>
-				<div class='center-right'>
+				<div className='center-right'>
 					<h1 className='title'>Rissel Pierre-François</h1>
 					<p className='detail'>Je m'appelle Pierre François Rissel je suis actuelement en 3éme année à <a href='https://www.supinfo.com/'>SUPINFO internationnal Univertity</a>, me préparant vers le secteur de l'informatique (programmation, conception de systemes informatique)</p>
 					<p className='listenning'><span className='bolded'>Actuellement je suis à la recherche :</span><br/> D'un stage / Contrat de professionalistation</p>

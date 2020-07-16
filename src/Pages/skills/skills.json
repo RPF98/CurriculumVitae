@@ -1,0 +1,44 @@
+{"data": [
+	{
+		"name": "Python3",
+		"description": "Interface graphique (pygame); Développement web(Flask)",
+		"img_src": "skills_img/python.png",
+		"type": "compétence"
+	},
+	{
+		"name": "Javascript",
+		"description": "Nodejs (express, koa.js); ReactJs (interface web)",
+		"img_src": "skills_img/javascript.png",
+		"type": "compétence"
+	},
+	{
+		"name": "C/C++",
+		"description": "Developpement de scripts; Développement d'un sudoku en console",
+		"img_src": "skills_img/c++.png",
+		"type": "compétence"
+	},
+	{
+		"name": "SQL",
+		"description": "Création, gestion de bases de données",
+		"img_src": "skills_img/sql.svg",
+		"type": "compétence"
+	},
+	{
+		"name": "MongoDB",
+		"description": "Création, gestion de bases de données",
+		"img_src": "skills_img/MongoDB.png",
+		"type": "compétence"
+	},
+	{
+		"name": "Vim",
+		"description": "Vim-plug pour installer les plugins; IDE pour coder",
+		"img_src": "skills_img/vim.png",
+		"type": "software"
+	},
+	{
+		"name": "Office 365",
+		"description": "Power Point : réalisation de présentations; Word: Réalisation de docimentation, rendu de projets; Excel: visualisations de données",
+		"img_src": "skills_img/office.png",
+		"type": "software"
+	}
+]}
