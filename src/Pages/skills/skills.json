@@ -1,7 +1,7 @@
 {"data": [
 	{
 		"name": "Python3",
-		"description": "Interface graphique (pygame); Développement web(Flask)",
+		"description": "Interface graphique (pygame); Développement web(flask)",
 		"img_src": "skills_img/python.png",
 		"type": "compétence"
 	},
@@ -13,7 +13,7 @@
 	},
 	{
 		"name": "C/C++",
-		"description": "Developpement de scripts; Développement d'un sudoku en console",
+		"description": "Développement de scripts; Développement d'un sudoku en console",
 		"img_src": "skills_img/c++.png",
 		"type": "compétence"
 	},
@@ -37,7 +37,7 @@
 	},
 	{
 		"name": "Office 365",
-		"description": "Power Point : réalisation de présentations; Word: Réalisation de docimentation, rendu de projets; Excel: visualisations de données",
+		"description": "Power Point : réalisations de présentation; Word: Réalisations de documentation, rendus de projet; Excel: visualisations de données",
 		"img_src": "skills_img/office.png",
 		"type": "software"
 	}

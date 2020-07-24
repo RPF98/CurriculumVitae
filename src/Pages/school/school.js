@@ -21,12 +21,12 @@ class School extends Component {
 					<div className='card-container-3-col'>
 						<div>
 							<h1 className='title'>2016</h1>
-							<h3>BAC STI2D</h3>
+							<h3>BAC STI2D (Mention Bien)</h3>
 							<p>{data.years[0].description}</p>
 						</div>	
 						<div>
 							<h1 className='title'>2017</h1>
-							<h3>Permi B</h3>
+							<h3>Permis B</h3>
 							<p>{data.years[1].description}</p>
 						</div>
 						<div>
@@ -41,12 +41,12 @@ class School extends Component {
 				<br/>
 				<button onClick={this.competences}><MaterialIcon icon='architecture'/>Compétences</button>
 				<div className='center-right'>	
-					<h1 className='title text-underlined'>Diplomes :</h1>
-					<p>Durant ces dernières années j'ai acquis des compétences et  des diplomes.</p>
-					<p className='title'>Actuellement je me dirige vers un diplome en 5années (Master) à Supinfo International University</p>
+					<h1 className='title text-underlined'>Diplômes :</h1>
+					<p>Durant ces dernières années j'ai acquis des compétences et des diplômes.</p>
+					<p className='title'>Actuellement je me dirige vers un diplôme en 5 années (Master) à Supinfo International University</p>
 				</div>
 				<div className='bottom-right'>
-					<button onClick={this.hobbies}><MaterialIcon icon='star'/>Centres d'interets</button>
+					<button onClick={this.hobbies}><MaterialIcon icon='star'/>Centres d'intérêts</button>
 				</div>
 			</div>
 		</div>

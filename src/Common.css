@@ -1,3 +1,7 @@
+body {
+	overflow: hidden;
+}
+
 .container {
 	width: 100vw;
 	height: 100vh;
@@ -5,7 +9,7 @@
 	display: grid;
 	grid-template-columns: 70vw 30vw;
 
-	font-family: 'Alegreya';
+	font-family: 'Gentium';
 }
 
 .container-left {
@@ -63,11 +67,12 @@
 	justify-content: center;
 	align-items: center;
 	
-	width: 150px;
-	height: 50px;
+	width: 200px;
+	height: 60px;
 
 	margin-top: 4vh;
 	margin-bottom: 1vh;
+	font-size: 1em;
 }
 
 .container-right button:hover {
@@ -77,11 +82,11 @@
 }
 
 .title {
-	font-family: 'Alegreya Sans';
+	font-family: 'Open Sans';
 }
 
 .normal {
-	font-family: 'Alegreya';
+	font-family: 'Gentium';
 }
 
 .detail {
@@ -91,7 +96,7 @@
 }
 
 .listenning {
-	font-family: 'Alegreya Sans';
+	font-family: 'Open Sans';
 	font-size: 1em;
 }
 
@@ -350,6 +355,43 @@ hr {
 	transition-duration: 0.5s;
 }
 
+.fat-line {
+	width: 75%;
+	height: 150px;
+	
+	background-color: #FFF;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	margin-top: 3vh;
+	margin-bottom: 3vh;
+
+	border: none;
+	border-radius: 2px;
+}
+
+.fat-line h4 {
+	width: 200px;
+}
+
+.fat-line img {
+	width: 150px;
+	height: 150px;
+	object-fit: cover;
+}
+
+.fat-line p {
+	width: calc(100% - 350px);
+}
+
+.centered-column {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
 @keyframes appear {
 	from {
 		transform: translateY(-20px);
@@ -361,12 +403,12 @@ hr {
 }
 
 @font-face {
-	font-family: 'Alegreya Sans';
-	src: url('./font/Alegreya_Sans/AlegreyaSans-Regular.ttf');
+	font-family: 'Open Sans';
+	src: url('./font/Open_Sans/OpenSans-Regular.ttf');
 }
 
 @font-face {
-	font-family: 'Alegreya';
-	src: url('./font/Alegreya/Alegreya-Regular.ttf');
+	font-family: 'Gentium';
+	src: url('./font/Gentium_Book_Basic/GentiumBookBasic-Regular.ttf');
 }
 

@@ -25,9 +25,7 @@ class Skills extends Component {
 
 		this.state = {
 			card: <div className='card'>
-					<h1 className='title'>Comment Visualiser le détail de mes Compétences ?</h1>
-					<p>Cliquez sur la compétence de la liste situer à votre droite</p>
-					<img src={process.env.PUBLIC_URL + 'tuto.png'}/>
+				<h1 className='title'>Veuillez sélectionner une compétence parmi celles proposées.</h1>
 				</div>,
 			selected: ''
 		}

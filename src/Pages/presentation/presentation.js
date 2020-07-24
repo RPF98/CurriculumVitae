@@ -20,12 +20,12 @@ class Presentation extends Component {
 			<div className='container-right'>
 				<div className='center-right'>
 					<h1 className='title'>Rissel Pierre-François</h1>
-					<p className='detail'>Je m'appelle Pierre François Rissel je suis actuelement en 3éme année à <a href='https://www.supinfo.com/'>SUPINFO internationnal Univertity</a>, me préparant vers le secteur de l'informatique (programmation, conception de systemes informatique)</p>
-					<p className='listenning'><span className='bolded'>Actuellement je suis à la recherche :</span><br/> D'un stage / Contrat de professionalistation</p>
+					<p className='detail'>Je m'appelle Pierre François Rissel. Je suis actuellement en 3ème année à <a href='https://www.supinfo.com/'>SUPINFO international University</a>, pour me permettre d'évoluer dans le secteur de l'informatique (programmation, conception de systèmes informatiques ...)</p>
+					<p className='listenning'><span className='bolded'>Actuellement je suis à la recherche :</span><br/> D'un stage et/ou Contrat de professionnalisation</p>
 
 				</div>
 				<div className='bottom-right'>
-					<button onClick={this.competences}><MaterialIcon icon='architecture'/> Competences</button>
+					<button onClick={this.competences}><MaterialIcon icon='architecture'/> Compétences</button>
 				</div>
 			</div>
 		</div>

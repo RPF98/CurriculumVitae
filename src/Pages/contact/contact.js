@@ -3,8 +3,8 @@ import '../../Common.css';
 import MaterialIcon from 'material-icons-react';
 
 class Contact extends Component {
-	hobbies() {
-		document.getElementById('hobbies').scrollIntoView({behavior: "smooth", block: "end", inline: "nearest"});
+	experience() {
+		document.getElementById('experience').scrollIntoView({behavior: "smooth", block: "end", inline: "nearest"});
 	}
 
 	render () {
@@ -31,14 +31,18 @@ class Contact extends Component {
 							<img src={process.env.PUBLIC_URL + 'contact_img/mail.png'}/>
 							Mail : 287854@supinfo.com
 						</div>
+						<div className='card-line'>
+							<img src={process.env.PUBLIC_URL + 'contact_img/github.svg'}/>
+							<a href='https://github.com/RPF98'>RPF98</a>
+						</div>
 					</div>
 				</div>
 			</div>
 			<div className='container-right align-column'>
 				<br/>
-				<button onClick={this.hobbies}><MaterialIcon icon='grade'/>Centres d'intérets</button>
+				<button onClick={this.experience}><MaterialIcon icon='science'/>Expériences</button>
 				<h1 className='title text-underlined'>Contact :</h1>	
-				<p>Si vous avez des questions, des offres de stages/ contrat de professionnalisation contactez moi</p>
+				<p>Si vous avez des questions, des offres de stages/ contrat de professionnalisation, contactez-moi</p>
 			</div>
 		</div>
 	}

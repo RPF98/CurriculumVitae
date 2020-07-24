@@ -6,8 +6,8 @@ import Card from '../../Components/card/card.js';
 import data from './hobbies.json';
 
 class Hobbies extends Component {
-	contact() {
-		document.getElementById('contact').scrollIntoView({behavior: "smooth", block: "end", inline: "nearest"});
+	experience() {
+		document.getElementById('experience').scrollIntoView({behavior: "smooth", block: "end", inline: "nearest"});
 	}
 
 	diplome() {
@@ -30,14 +30,13 @@ class Hobbies extends Component {
 			</div>
 			<div className='container-right'>
 				<br/>
-				<br/>
-				<button onClick={this.diplome}><MaterialIcon icon='card_travel'/>Diplomes</button>
+				<button onClick={this.diplome}><MaterialIcon icon='card_travel'/>Diplômes</button>
 				<div className='center-right'>
-					<h1 className='title text-underlined'>Centres d'interêts :</h1>
-					<p>J'ai aussi d'autres centres d'intérets comme les jeux vidéos, les mangas/animations, ...</p>
+					<h1 className='title text-underlined'>Centres d'intérêts :</h1>
+					<p>J'ai aussi d'autres centres d'intérêts comme les jeux vidéos, les mangas/animations ...</p>
 				</div>
 				<div className='bottom-right'>
-					<button onClick={this.contact}><MaterialIcon icon='contacts'/>Contact</button>
+					<button onClick={this.experience}><MaterialIcon icon='science'/>Expériences</button>
 				</div>
 			</div>
 		</div>
