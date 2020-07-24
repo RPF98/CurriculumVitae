@@ -1,5 +1,4 @@
 import React from 'react';
-import logo from './logo.svg';
 
 import Presentation from './Pages/presentation/presentation.js';
 import Skills from './Pages/skills/skills.js';
