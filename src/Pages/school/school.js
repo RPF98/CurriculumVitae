@@ -5,53 +5,49 @@ import '../../Common.css';
 import ClickList from '../../Components/clicklist/clicklist.js';
 import data from './school.json';
 
-class DegreeDisplay extends Component {
-	render() {
-		console.log(data);
-		return <div className='card appear-anim'>
-			<h1>Diplome Acquis : {this.props.data.degree}</h1>
-			<h3>Date d'acquisition : {this.props.data.year}</h3>
-			<p>{this.props.data.description}</p>
-		</div>
-	}
-}
-
 class School extends Component {
-	constructor(props)
-	{
-		super(props);
-
-		this.state = {
-			card: <div>
-				<h1 className='title'>test</h1>
-			</div>
-		}
-
-		this.changeCard = this.changeCard.bind(this);
+	competences() {
+		document.getElementById('competences').scrollIntoView({behavior: "smooth", block: "end", inline: "nearest"});
 	}
 
-	changeCard(card) {
-		this.setState({
-			card: card
-		});
+	hobbies() {
+		document.getElementById('hobbies').scrollIntoView({behavior: "smooth", block: "end", inline: "nearest"});
 	}
-	
+
 	render() {
-		console.log(data);
-		return <div className='container'>
+		return <div className='container' id='diplome'>
 			<div className='container-left centered'>
-				{this.state.card}	
+				<div className='card-long'>
+					<div className='card-container-3-col'>
+						<div>
+							<h1 className='title'>2016</h1>
+							<h3>BAC STI2D</h3>
+							<p>{data.years[0].description}</p>
+						</div>	
+						<div>
+							<h1 className='title'>2017</h1>
+							<h3>Permi B</h3>
+							<p>{data.years[1].description}</p>
+						</div>
+						<div>
+							<h1 className='title'>Actuellement-2022</h1>
+							<h3>SUPINFO International University</h3>
+							<p>{data.years[2].description}</p>
+						</div>
+					</div>
+				</div>
 			</div>
-			<div className='container-right align-column'>
+		<div className='container-right'>
 				<br/>
-				<button><MaterialIcon icon='arrow_upward'/>Compétences</button>
-				<h1 className='title text-underlined'>Formations/Diplomes</h1>
-				<ClickList change={this.changeCard} data={data.years} model={DegreeDisplay}>
-					<p data='0'><MaterialIcon icon='schedule'/>2016</p>
-					<p data='1'><MaterialIcon icon='schedule'/>2017</p>
-					<p data='2'><MaterialIcon icon='schedule'/>Actuellement-2022</p>
-				</ClickList>
-				<p className='title'>Actuellement je me dirige vers un diplome en 5années (Master) à Supinfo International University</p>
+				<button onClick={this.competences}><MaterialIcon icon='architecture'/>Compétences</button>
+				<div className='center-right'>	
+					<h1 className='title text-underlined'>Diplomes :</h1>
+					<p>Durant ces dernières années j'ai acquis des compétences et  des diplomes.</p>
+					<p className='title'>Actuellement je me dirige vers un diplome en 5années (Master) à Supinfo International University</p>
+				</div>
+				<div className='bottom-right'>
+					<button onClick={this.hobbies}><MaterialIcon icon='star'/>Centres d'interets</button>
+				</div>
 			</div>
 		</div>
 	}

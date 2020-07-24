@@ -1,0 +1,24 @@
+{
+	"hobbies": [
+		{
+			"name": "Sport",
+			"description": "Je suis judoka mais je suis aussi l'actualité sportive",
+			"img": "sport.jpg"
+		},
+		{
+			"name": "Technologie",
+			"description": "Appréciant les nouvelles technologies je suis à l'écoute des dernières innovations (voiture électriques, énergies, ...)",
+			"img": "technology.jpg"
+		},
+		{
+			"name": "Apprendre de nouvelles choses",
+			"description": "Etant curieux de natures et autodidacte apprendre ne me fais pas peur au contraire cela me permet de consolider mes connaissances mais aussi d'élargir mon dommaine de compétance",
+			"img": "learn.jpg"
+		},
+		{
+			"name": "Musique",
+			"description": "La musique est un art que j'apprécie, étant musicien moi même écouter me permet de me concentrer et de cannaliser mon attention sur mon travail",
+			"img": "guitar.jpg"
+		}
+	]
+}

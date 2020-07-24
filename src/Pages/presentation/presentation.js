@@ -8,8 +8,12 @@ import '../../Common.css';
 import profile_picture from './img/profil_picture.jpg';
 
 class Presentation extends Component {
+	competences() {
+		document.getElementById('competences').scrollIntoView({behavior: "smooth", block: "end", inline: "nearest"});
+	}
+
 	render() {
-		return <div className='container'>
+		return <div className='container' id='presentation'>
 			<div className='container-left'>
 				<img src={profile_picture}/>
 			</div>
@@ -21,7 +25,7 @@ class Presentation extends Component {
 
 				</div>
 				<div className='bottom-right'>
-					<button><MaterialIcon icon='arrow_downward'/> Next</button>
+					<button onClick={this.competences}><MaterialIcon icon='architecture'/> Competences</button>
 				</div>
 			</div>
 		</div>

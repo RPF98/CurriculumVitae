@@ -26,6 +26,8 @@ class Skills extends Component {
 		this.state = {
 			card: <div className='card'>
 					<h1 className='title'>Comment Visualiser le détail de mes Compétences ?</h1>
+					<p>Cliquez sur la compétence de la liste situer à votre droite</p>
+					<img src={process.env.PUBLIC_URL + 'tuto.png'}/>
 				</div>,
 			selected: ''
 		}
@@ -51,6 +53,14 @@ class Skills extends Component {
 		}, 1);	
 	}
 
+	diplomes() {
+		document.getElementById('diplome').scrollIntoView({behavior: "smooth", block: "end", inline: "nearest"});
+	}
+
+	presentation() {
+		document.getElementById('presentation').scrollIntoView({behavior: "smooth", block: "end", inline: "nearest"});
+	}
+
 	render() {
 		let menu = data.data.map(data => {
 			if (data.name !== this.state.selected)
@@ -59,16 +69,22 @@ class Skills extends Component {
 			return <SkillItem key={data.name} name={data.name} img={data.img_src} change={this.changeCard} type={data.type} active={true}/>
 		});
 		
-		return <div className='container'>
+		return <div className='container' id='competences'>
 			<div className='container-left centered'>
 				{this.state.card}
 			</div>
-			<div className='container-right align-column'>
+			<div className='container-right'>
 				<br/>
-				<button><MaterialIcon icon='arrow_upward'/> Présentation</button>
-				<h1 className='text-underlined title'>Mes Compétences :</h1>
-				<div>
-					{menu}
+				<button onClick={this.presentation}><MaterialIcon icon='person'/> Présentation</button>
+				<div className='center-right'>
+					<h1 className='text-underlined title'>Mes Compétences :</h1>
+					<div>
+						{menu}
+					</div>
+
+				</div>	
+				<div className='bottom-right'>
+					<button onClick={this.diplomes}><MaterialIcon icon='card_travel'/>Diplomes</button>
 				</div>
 			</div>
 		</div>
