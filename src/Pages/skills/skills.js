@@ -82,7 +82,7 @@ class Skills extends Component {
 
 				</div>	
 				<div className='bottom-right'>
-					<button onClick={this.diplomes}><MaterialIcon icon='card_travel'/>Diplomes</button>
+					<button onClick={this.diplomes}><MaterialIcon icon='card_travel'/>Diplômes</button>
 				</div>
 			</div>
 		</div>

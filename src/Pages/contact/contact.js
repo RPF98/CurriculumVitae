@@ -24,15 +24,15 @@ class Contact extends Component {
 						<h2 className='text-underlined title'>Interessé par mon profil ? N'hésitez pas à me contacter</h2>
 
 						<div className='card-line'>
-							<img src={process.env.PUBLIC_URL + 'contact_img/linkedin.png'}/>
+							<img src={process.env.PUBLIC_URL + '/contact_img/linkedin.png'}/>
 							Linkedin : <a href='https://www.linkedin.com/in/pierre-fran%C3%A7ois-rissel-b1a948155/'>Pierre-François Rissel</a>
 						</div>
 						<div className='card-line'>
-							<img src={process.env.PUBLIC_URL + 'contact_img/mail.png'}/>
+							<img src={process.env.PUBLIC_URL + '/contact_img/mail.png'}/>
 							Mail : 287854@supinfo.com
 						</div>
 						<div className='card-line'>
-							<img src={process.env.PUBLIC_URL + 'contact_img/github.svg'}/>
+							<img src={process.env.PUBLIC_URL + '/contact_img/github.svg'}/>
 							<a href='https://github.com/RPF98'>RPF98</a>
 						</div>
 					</div>

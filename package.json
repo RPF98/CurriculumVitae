@@ -12,7 +12,7 @@
     "react-dom": "^16.13.1",
     "react-scripts": "3.4.1"
   },
-  "homepage": "https://RPF98.github.io/CuriculumVitae",
+  "homepage": "https://RPF98.github.io/CuriculumVitae/",
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",

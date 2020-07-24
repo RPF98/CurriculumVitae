@@ -18,7 +18,7 @@ class Hobbies extends Component {
 		let cards = [];
 
 		data.hobbies.forEach(e => {
-			cards.push(<Card img={process.env.PUBLIC_URL + `hobbies_img/${e.img}`} title={e.name} description={e.description}/>)
+			cards.push(<Card img={process.env.PUBLIC_URL + `/hobbies_img/${e.img}`} title={e.name} description={e.description}/>)
 		});
 		
 		return <div className='container' id='hobbies'>
